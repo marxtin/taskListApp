@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Tasks 2022</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+
+  <template id="task">
+    <li class="task">
+      <label class="task-label">
+        <input class="checkbox" type="checkbox" />
+
+        <span class="checkbox-custom"><span>✓</span></span>
+      </label>
+
+      <p class="task-text" contenteditable></p>
+      
+      <button class="btn btn--delete task-delete" type="button">
+        Delete
+      </button>
+    </li>
+  </template>
+
+  <div class="container">
+    <ul class="tasks"></ul>
+
+    <form class="create-task">
+      <textarea class="create-task-textarea" placeholder="type your new task"></textarea>
+
+      <button class="btn btn--create create-task-submit" type="submit" disabled>
+        Create
+      </button>
+    </form>
+  </div>
+
+  <script src="StorageUpdater.js" type="module"></script>
+  <script src="Utilities.js" type="module"></script>
+  <script src="script.js" type="module"></script>
+</body>
+
+</html>

@@ -1,0 +1,15 @@
+{
+  "name": "new_task_list_2022",
+  "version": "1.0.0",
+  "description": "",
+  "homepage":"https://marxtin.github.io/taskListApp",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
